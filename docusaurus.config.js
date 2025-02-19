@@ -149,12 +149,12 @@ module.exports = {
       hideOnScroll: true,
       logo: {
         alt: 'Site Logo',
-        src: `/logos/ionic-text-docs-dark.svg`,
-        srcDark: `/logos/ionic-text-docs-light.svg`,
+        src: `/logos/Broadstripes_logo_large.png`,
+        srcDark: `/logos/Broadstripes_logo_large.png`,
         href: '/',
         target: '_self',
-        width: 139,
-        height: 28,
+        width: 160,
+        height: 40,
       },
       items: [
         {

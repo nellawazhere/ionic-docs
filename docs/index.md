@@ -1,5 +1,5 @@
 ---
-title: Introduction to Ionic
+title: Welcome to the Broadstripes Help Center
 sidebar_label: Overview
 slug: /
 hide_table_of_contents: true
@@ -11,10 +11,10 @@ import DocsCard from '@components/global/DocsCard';
 import DocsCards from '@components/global/DocsCards';
 
 <head>
-  <title>Open-Source UI Toolkit to Create Your Own Mobile Apps</title>
+  <title>Welcome to the Broadstripes Help Center</title>
   <meta
     name="description"
-    content="Ionic Framework is an open-source UI toolkit to create your own mobile apps using web technologies with integrations for popular frameworks."
+    content="Got questions? We've got you covered! Find a variety of resources to help get you going in Broadstripes."
   />
   <link rel="canonical" href="https://ionicframework.com/docs" />
   <link rel="alternate" href="https://ionicframework.com/docs" hreflang="x-default" />
@@ -22,39 +22,47 @@ import DocsCards from '@components/global/DocsCards';
   <meta property="og:url" content="https://ionicframework.com/docs" />
 </head>
 
-Ionic is an open source UI toolkit for building performant, high-quality mobile apps using web technologies — HTML, CSS, and JavaScript — with integrations for popular frameworks like [Angular](angular/overview.md), [React](react.md), and [Vue](vue/overview.md).
+Find tutorials and help on the many tools available to you in Broadstripes from [Texting](www.broadstripes.com) to [Card-signing](www.broadstripes.com) to [Reporting](www.broadstripes.com).
 
-Get started building by [installing Ionic](intro/cli.md) or following our [First App Tutorial](intro/next.md#build-your-first-app) to learn the main concepts.
+Get started by following the guides in the [Getting Started](intro/next.md#build-your-first-app) section to learn the basics or search for a topic above.
 
 <intro-end />
 
 <DocsCards>
-  <DocsCard header="Installation Guide" href="/intro/cli" icon="/icons/guide-installation-icon.svg" hoverIcon="/icons/guide-installation-icon-hover.svg">
-    <p>Step-by-step guides to setting up your system and installing the framework.</p>
+  <DocsCard header="Getting Started" href="/intro/cli" icon="/icons/guide-installation-icon.svg" hoverIcon="/icons/guide-installation-icon-hover.svg">
+    <p>New to Broadstripes? This collection of articles and videos are just for organizers like you.</p>
   </DocsCard>
 
 <DocsCard
-  header="UI Components"
+  header="Organizer Guide"
   href="/components"
   icon="/icons/guide-components-icon.svg"
   hoverIcon="/icons/guide-components-icon-hover.svg"
 >
-  <p>Dive into Ionic beautifully designed UI component library.</p>
+  <p>Find answers – from getting started to mastering search, layouts, events, and reporting.</p>
 </DocsCard>
 
 <DocsCard
-  header="Native Functionality"
+  header="Video Tutorials"
   href="/native"
   icon="/icons/guide-native-icon.svg"
   hoverIcon="/icons/guide-native-icon-hover.svg"
 >
-  <p>Integrate native device plugins, like Bluetooth, Maps, HealthKit, and more.</p>
+  <p>Tips, tricks and how to use each feature step by step. New videos added regularly.</p>
 </DocsCard>
 
-  <DocsCard header="Theming" href="/theming/basics" icon="/icons/guide-theming-icon.svg" hoverIcon="/icons/guide-theming-icon-hover.svg">
-    <p>Learn to easily customize and modify your Ionic app's visual design to fit your brand.</p>
+  <DocsCard header="Admin Guide" href="/theming/basics" icon="/icons/guide-theming-icon.svg" hoverIcon="/icons/guide-theming-icon-hover.svg">
+    <p>Just for Admins: Import data, manage users, and customize your Broadstripes project.</p>
   </DocsCard>
-</DocsCards>
+
+    <DocsCard header="Messaging" href="/theming/basics" icon="/icons/component-header-icon.svg" hoverIcon="/icons/guide-theming-icon-hover.svg">
+    <p>Everything you need to know about email and SMS messaging</p>
+  </DocsCard>
+
+  <DocsCard header="Tips & Tricks" href="/theming/basics" icon="/icons/guide-faq-icon.svg" hoverIcon="/icons/guide-faq-icon.svg">
+    <p>Everything you need to know about email and SMS messaging</p>
+  </DocsCard>
+  </DocsCards>
 
 ## Overview
 

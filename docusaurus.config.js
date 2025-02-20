@@ -33,9 +33,9 @@ const ArchivedVersionsDropdownItems = Object.entries(ARCHIVED_VERSIONS_JSON).spl
 const BASE_URL = '/docs';
 
 module.exports = {
-  title: 'Ionic Documentation',
+  title: 'Broadstripes Help Center',
   tagline:
-    'Ionic is the app platform for web developers. Build amazing mobile and web apps with one shared code base and open web standards',
+    'Winning labor campaigns start here.',
   url: 'https://ionicframework.com',
   baseUrl: `${BASE_URL}/`,
   i18n: {

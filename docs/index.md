@@ -29,7 +29,7 @@ Get started by following the guides in the [Getting Started](intro/next.md#build
 <intro-end />
 
 <DocsCards>
-  <DocsCard header="Getting Started" href="/intro/cli" icon="/icons/guide-installation-icon.svg" hoverIcon="/icons/guide-installation-icon-hover.svg">
+  <DocsCard header="Getting Started" href="/intro/get-started" icon="/icons/guide-installation-icon.svg" hoverIcon="/icons/guide-installation-icon-hover.svg">
     <p>New to Broadstripes? This collection of articles and videos are just for organizers like you.</p>
   </DocsCard>
 

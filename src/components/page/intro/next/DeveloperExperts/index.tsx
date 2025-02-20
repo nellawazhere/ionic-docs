@@ -1,28 +1,37 @@
 import React from 'react';
 import styles from './index.module.scss';
 
-export default function DeveloperExperts() {
+interface Link {
+  url: string;
+  text: string;
+}
+
+interface CatLinkProps {
+  title: string;
+  description: string;
+  links: Link[];
+}
+
+export default function CatSection({ title, description, links }: CatLinkProps) {
   return (
     <div className={styles.developerExperts}>
       <header>
-        <h3 className={styles.developerExpertsTitle}>Featured Ionic Developer Expert Projects</h3>
+        <h3 className={styles.developerExpertsTitle}>{title}</h3>
         <p className={styles.developerExpertsDescription}>
-          Extend your knowledge of Ionic from premium educational materials made by community members.
+          {description}
         </p>
       </header>
       <div className={styles.developerExpertsLinks}>
-        <a href="https://ionicacademy.com" target="_blank" rel="noopener noreferrer">
-          Ionic Academy →
-        </a>
-        <a href="https://ionicstart.com" target="_blank" rel="noopener noreferrer">
-          Ionic Start →
-        </a>
-        <a href="https://ionicthemes.com" target="_blank" rel="noopener noreferrer">
-          Ionic Themes →
-        </a>
-        <a href="https://ionicreacthub.com" target="_blank" rel="noopener noreferrer">
-          Ionic React Hub →
-        </a>
+        {links.map((link, index) => (
+          <a 
+            key={index}
+            href={link.url} 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            {link.text} →
+          </a>
+        ))}
       </div>
     </div>
   );

@@ -20,30 +20,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 #### Are you new to Broadstripes? We’re here to help!
 
-<<<<<<< HEAD
-<DocsCards>
-  <DocsCard header="Start with Angular" href="/angular/your-first-app" icon="/icons/logo-angular-icon.svg">
-    <p>A complete guide to get you up to speed with the basics of building Ionic apps with Angular.</p>
-  </DocsCard>
-
-  <DocsCard header="Start with React" href="/react/your-first-app" icon="/icons/logo-react-icon.svg">
-    <p>A complete guide to get you up to speed with the basics of building Ionic apps with React.</p>
-  </DocsCard>
-
-  <DocsCard header="Start with Vue" href="/vue/your-first-app" icon="/icons/logo-vue-icon.png">
-    <p>A complete guide to get you up to speed with the basics of building Ionic apps with Vue.</p>
-  </DocsCard>
-</DocsCards>
-
-
-<CatSection
-  title="Getting Started"
-  description="Start organizing in Broadstripes."
-  links={[
-    { url: "https://ionicacademy.com", text: "Getting Started Video" },
-    { url: "https://ionicstart.com", text: "Register your account" },
-    { url: "https://ionicthemes.com", text: "Login or reset your password" },
-=======
 <video
   style={{
     margin: '40px auto',
@@ -70,7 +46,6 @@ This video will walk you through some of the most common tasks for new users inc
   links={[
     { url: "https://ionicstart.com", text: "Register your account" },
     { url: '/docs/intro/login-or-reset', text: "Login or reset your password" },
->>>>>>> 92889699 (Add product tour video and login/reset page)
     { url: "https://ionicreacthub.com", text: "Tour your homepage" },
     { url: "https://ionicacademy.com", text: "Use the Quick Search" },
     { url: "https://ionicstart.com", text: "Search for a person" },
@@ -84,8 +59,4 @@ This video will walk you through some of the most common tasks for new users inc
     { url: "https://ionicthemes.com", text: "Get driving directions for your list" },
     { url: "https://ionicreacthub.com", text: "Passwords and Digital Security Tips" }
   ]}
-<<<<<<< HEAD
 />
-=======
-/>
->>>>>>> 92889699 (Add product tour video and login/reset page)

@@ -15,10 +15,12 @@ import DocsCards from '@components/global/DocsCards';
 
 import CatSection from '@components/page/intro/next/DeveloperExperts';
 
-## Build Your First App
+import { useState, useEffect } from 'react';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Pick the JavaScript framework you plan to use while building your Ionic app:
+#### Are you new to Broadstripes? We’re here to help!
 
+<<<<<<< HEAD
 <DocsCards>
   <DocsCard header="Start with Angular" href="/angular/your-first-app" icon="/icons/logo-angular-icon.svg">
     <p>A complete guide to get you up to speed with the basics of building Ionic apps with Angular.</p>
@@ -41,6 +43,34 @@ Pick the JavaScript framework you plan to use while building your Ionic app:
     { url: "https://ionicacademy.com", text: "Getting Started Video" },
     { url: "https://ionicstart.com", text: "Register your account" },
     { url: "https://ionicthemes.com", text: "Login or reset your password" },
+=======
+<video
+  style={{
+    margin: '40px auto',
+    display: 'flex',
+  }}
+  width="400"
+  src={useBaseUrl('video/App-Overview-Tour.mp4')}
+  controls
+></video>
+This video will walk you through some of the most common tasks for new users including:
+
+- Viewing your homepage
+- Searching for a worker or shop by name
+- Adding a new worker or shop
+- Getting around the Turf Panel and Search Results Panel
+- Data entry
+- Printing a list
+- Viewing workers on a map
+- Using the Broadstripes Knowledge Base
+
+<CatSection
+  title="Getting Started"
+  description="Use these guides to get started with Broadstripes."
+  links={[
+    { url: "https://ionicstart.com", text: "Register your account" },
+    { url: '/docs/intro/login-or-reset', text: "Login or reset your password" },
+>>>>>>> 92889699 (Add product tour video and login/reset page)
     { url: "https://ionicreacthub.com", text: "Tour your homepage" },
     { url: "https://ionicacademy.com", text: "Use the Quick Search" },
     { url: "https://ionicstart.com", text: "Search for a person" },
@@ -54,4 +84,8 @@ Pick the JavaScript framework you plan to use while building your Ionic app:
     { url: "https://ionicthemes.com", text: "Get driving directions for your list" },
     { url: "https://ionicreacthub.com", text: "Passwords and Digital Security Tips" }
   ]}
+<<<<<<< HEAD
 />
+=======
+/>
+>>>>>>> 92889699 (Add product tour video and login/reset page)

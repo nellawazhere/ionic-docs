@@ -6,13 +6,21 @@ interface Link {
   text: string;
 }
 
+<<<<<<< HEAD
 interface CatLinkProps {
+=======
+interface CatSectionProps {
+>>>>>>> 92889699 (Add product tour video and login/reset page)
   title: string;
   description: string;
   links: Link[];
 }
 
+<<<<<<< HEAD
 export default function CatSection({ title, description, links }: CatLinkProps) {
+=======
+export default function CatSection({ title, description, links = [] }: CatSectionProps) {
+>>>>>>> 92889699 (Add product tour video and login/reset page)
   return (
     <div className={styles.developerExperts}>
       <header>

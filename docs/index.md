@@ -24,7 +24,7 @@ import DocsCards from '@components/global/DocsCards';
 
 Find tutorials and help on the many tools available to you in Broadstripes from [Texting](www.broadstripes.com) to [Card-signing](www.broadstripes.com) to [Reporting](www.broadstripes.com).
 
-Get started by following the guides in the [Getting Started](intro/next.md#build-your-first-app) section to learn the basics or search for a topic above.
+Get started by following the guides in the [Getting Started](/intro/get-started) section to learn the basics or search for a topic above.
 
 <intro-end />
 

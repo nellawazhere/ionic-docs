@@ -4,7 +4,7 @@ module.exports = {
       type: 'category',
       label: 'Getting Started',
       collapsed: false,
-      items: ['index', 'intro/environment', 'intro/cli', 'intro/cdn', 'intro/vscode-extension', 'intro/next'],
+      items: ['index', 'intro/get-started', 'intro/cli', 'intro/cdn', 'intro/vscode-extension', 'intro/next'],
     },
     {
       type: 'category',

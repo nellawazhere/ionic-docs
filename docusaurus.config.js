@@ -42,12 +42,12 @@ module.exports = {
       hideOnScroll: true,
       logo: {
         alt: 'Site Logo',
-        src: `/logos/Broadstripes_logo_large.png`,
-        srcDark: `/logos/Broadstripes_logo_large.png`,
+        src: `/logos/logoBroadstripes.png`,
+        srcDark: `/logos/logoBroadstripes.png`,
         href: '/',
         target: '_self',
-        width: 160,
-        height: 40,
+        width: 201,
+        height: 54,
       },
       items: [
         {

@@ -1,5 +1,7 @@
 ---
-title: Getting Started
+title: Your Title
+sidebar_class: sidebar
+hide_table_of_contents: false
 ---
 
 <head>

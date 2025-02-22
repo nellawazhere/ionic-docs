@@ -7,7 +7,9 @@ module.exports = {
       items: [
         'index',
         'intro/get-started',
-        'intro/login-or-reset'
+        'intro/register-account',
+        'intro/login-or-reset',
+        'intro/tour-homepage'
       ],
     }
   ]

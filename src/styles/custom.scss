@@ -25,7 +25,32 @@
 @use './components/toc';
 
 :root {
-  --ifm-background-color: var(--token-primary-bg-c);
+  /* Color variables for admonitions */
+  --c-yellow-0: #fff8e6;
+  --c-yellow-10: #fff3d1;
+  --c-yellow-30: #ffe7a3;
+  --c-yellow-80: #b88b00;
+  --c-yellow-90: #997300;
+
+  --c-blue-0: #e6f6ff;
+  --c-blue-10: #d1eeff;
+  --c-blue-80: #0077cc;
+  --c-blue-90: #005c99;
+
+  --c-green-10: #e6fff0;
+  --c-green-20: #ccffe0;
+  --c-green-80: #00b347;
+  --c-green-90: #008c38;
+
+  --c-orange-10: #fff0e6;
+  --c-orange-20: #ffe0cc;
+  --c-orange-80: #cc5500;
+  --c-orange-90: #994000;
+
+  --c-red-0: #ffe6e6;
+  --c-red-10: #ffcccc;
+  --c-red-60: #ff1a1a;
+  --c-red-90: #990000;
 
   --ifm-navbar-link-hover-color: initial;
   --ifm-navbar-padding-vertical: 0;
@@ -79,7 +104,7 @@ html[data-theme='dark'] {
   --ifm-heading-color: #fff;
   --ifm-secondary-heading-color: #f6f6f6;
 
-  --ifm-font-color-base: var(--c-carbon-10);
+  --ifm-font-color-base: #fff;
   --ifm-background-color: var(--token-primary-bg-c);
   --ifm-dropdown-background-color: var(--token-secondary-bg-c);
 

@@ -13,7 +13,7 @@ module.exports = {
   },
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/meta/favicon-96x96.png',
+  favicon: 'img/meta/pagelogo.jpeg',
   organizationName: 'broadstripes',
   projectName: 'docs',
   presets: [
@@ -23,6 +23,9 @@ module.exports = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
+          showLastUpdateTime: true,
+          sidebarCollapsible: true,
+          sidebarCollapsed: false,
         },
         theme: {
           customCss: [
@@ -33,6 +36,12 @@ module.exports = {
     ],
   ],
   themeConfig: {
+    docs: {
+      sidebar: {
+        hideable: false,
+        autoCollapseCategories: false,
+      },
+    },
     announcementBar: {
       id: 'announcement-bar',
       content: '<a href="https://www.broadstripes.com" target="_blank" rel="noopener"><span> <strong>Need a demo?</strong> Click here →</span></a>',

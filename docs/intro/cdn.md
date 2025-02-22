@@ -13,7 +13,7 @@ sidebar_label: Packages & CDN
 
 Ionic provides different packages that can be used to quickly get started using Ionic Framework or Ionicons in a test environment, Angular, any other framework, or none at all.
 
-## Ionic Framework CDN
+Ionic Framework CDN
 
 Ionic Framework can be included from a CDN for quick testing in a [Plunker](https://plnkr.co/), [Codepen](https://codepen.io), or any other online code editor!
 

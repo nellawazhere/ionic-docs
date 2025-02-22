@@ -35,6 +35,12 @@ module.exports = {
       },
     ],
   ],
+  markdown: {
+    mermaid: true,
+    mdx1Compat: {
+      headingIds: true,
+    },
+  },
   themeConfig: {
     docs: {
       sidebar: {

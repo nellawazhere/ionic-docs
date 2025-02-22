@@ -24,7 +24,8 @@ Your Broadstripes homepage gives you customized, at-a-glance insight into your p
 ## Your homepage tabs
 Once you’re on your homepage, you’ll see your project’s most important information separated into five tabs.
 
-![Homepage tabs](/img/getting-started/homepage-tabs.png#center)
+![Homepage tabs|max-width: 500px](/img/getting-started/homepage-tabs.png#center-large)
+
 
 ## Quick Links
 

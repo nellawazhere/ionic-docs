@@ -1,9 +1,14 @@
 ---
-title: Getting Started
+title: Getting Started video tour
+description: Find everything you need to know to start organizing in Broadstripes.
+hide_table_of_contents: false
+displayed_sidebar: docs
+sidebar_label: Getting Started video tour
+hide_from_nav: false
 ---
 
 <head>
-  <title>Getting Started:</title>
+  <title>Getting Started video tour</title>
   <meta
     name="description"
     content="Find everything you need to know to start organizing in Broadstripes."

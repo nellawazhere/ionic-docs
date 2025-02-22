@@ -81,7 +81,7 @@ module.exports = {
           items: [
             {
               label: 'Getting Started',
-              to: '/intro/get-started',
+              to: '/get-started/get-started',
             },
           ],
         },

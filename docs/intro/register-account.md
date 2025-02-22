@@ -27,7 +27,7 @@ Getting started with Broadstripes is simple. It all begins when your Broadstripe
 Choose a secure password that’s at least **eight characters long**, and contains **at least one punctuation mark** or **numeric character**. Passwords are case-sensitive.
 :::
 
-![Broadstripes account registration form](/img/broadstripes-account-registration-screen.png#center)
+![Broadstripes account registration form](/img/getting-started/broadstripes-account-registration-screen.png#center)
 
 5. Once you’ve chosen your password and time zone, click Sign up, and your new account will be created. From there, you’ll be logged in, and automatically taken to your Broadstripe’s homepage.
 

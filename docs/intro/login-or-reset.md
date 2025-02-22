@@ -25,7 +25,7 @@ Your instance of Broadstripes might have a custom URL (for example https://crm.y
 3. Check "**Remember me**" if you'd like to save a little time logging in next time.
 4. Click **Log in**.
 
-![Broadstripes login screen](/img/broadstripes-login.png#center)
+![Broadstripes login screen](/img/getting-started/broadstripes-login.png#center)
 
 5. Broadstripes will log you in and take you to your Broadstripes homepage.
 
@@ -35,9 +35,9 @@ Although your administrator invited you to Broadstripes, passwords aren’t main
 
 If you ever forget your password, you can use the “**Forgot your password?**” link to reset your password and access your account.
 
-![Forgot your password link](/img/broadstripes-reset-password.png#center)
+![Forgot your password link](/img/getting-started/broadstripes-reset-password.png#center)
 
 On the **“Reset your password” screen**, you will need to enter your email used for login. After you click the **“Send me reset password instructions”** button, an email will be sent to you with a link to reset your password.
 
-![Forgot your password link](/img/broadstripes-send-reset.png#center)
+![Forgot your password link](/img/getting-started/broadstripes-send-reset.png#center)
 

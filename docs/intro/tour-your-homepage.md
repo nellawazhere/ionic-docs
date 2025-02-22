@@ -19,12 +19,12 @@ hide_from_nav: false
 
 Your Broadstripes homepage gives you customized, at-a-glance insight into your project. Open your homepage by either clicking the **Broadstripes logo** at the top left corner of any page, or the **Homepage** link in the left-hand navigational toolbar.
 
-![Homepage navigational panel](/img/homepage-left-nav-panel.png#center)
+![Homepage navigational panel](/img/getting-started/homepage-left-nav-panel.png#center)
 
 ## Your homepage tabs
 Once you’re on your homepage, you’ll see your project’s most important information separated into five tabs.
 
-![Homepage tabs](/img/homepage-tabs.png#center)
+![Homepage tabs](/img/getting-started/homepage-tabs.png#center)
 
 ## Quick Links
 

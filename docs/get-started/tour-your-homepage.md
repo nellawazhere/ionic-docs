@@ -37,3 +37,101 @@ Many users start at the **Quick Links** tab to easily jump to the tasks they do 
 - generating PDF lists
 - generating aggregated status reports
 - running your most frequent searches
+
+![Quick links tab|max-width: 500px](/img/getting-started/homepage-quicklinks.png#center-large)
+
+### How to use your Quick Links
+
+Here’s how to use quick links to manage common tasks:
+1. Click the **homepage** link in the navigational panel.
+![Homepage navigational panel](/img/getting-started/homepage-left-nav-panel.png#center)
+
+2. From the homepage, click the **Quick Links** tab.
+![Quick links tab|max-width: 500px](/img/getting-started/quick-links-tab.png#center)
+
+3. All of your quick links will be displayed on the tab as buttons.
+4. Here’s a look at what each of the four **buttons** shown below will do. (**Note: since quick links are set up by you or your admin to match your specific workflow, the links you see will be different than those shown below.)
+![Quick links buttons](/img/getting-started/quick-links-view.png#center-large)
+5.  **Launch a search:** Clicking the button "Unassigned people on my turf", takes us immediately to a search results data view panel where we can view or update records.
+
+<figure>
+![Quick links buttons](/img/getting-started/launch-search-quick-link.png#center)
+<figcaption>Clicking this button will run the search and take you to the search results page.</figcaption>
+</figure>
+
+6. **Download a Status report:** Clicking the button '"ard Signing Report" generates a fully-updated status report that we can download and manipulate offline with Excel – all with just the click of a button.
+
+<figure >
+![Quick links buttons](/img/getting-started/status-report-quick-link.png#center)
+<figcaption>Clicking this button will generate a status report that you can download in a user-specified format.</figcaption>
+</figure>
+
+7. **Generate a quick search:** Clicking the button "Quick search by department"  launches a dynamic search that then automatically generates search results in the user-specified format. 
+
+<figure>
+![Quick search quick link](/img/getting-started/quick-search-quick-link.png#center)
+<figcaption>Clicking this button opens the search below, and then generates the results in a format that you choose.</figcaption>
+</figure>
+
+<figure>
+![Quick search panel](/img/getting-started/quick-search-panel.png#center)
+<figcaption>Search by name or employment and choose the format you want the results in.</figcaption>
+</figure>
+
+8. **Download an Excel report:** Clicking the button "Unassessed people on my turf" generates a spreadsheet report in XLSX format that we can download and manipulate offline with Excel – all with just the click of a button.
+
+<figure>
+![Spreadsheet report quick link](/img/getting-started/spreadsheet-report-quick-link.png#center)
+<figcaption>Clicking this button will generate a spreadsheet report with the results of your search in XLSX format.</figcaption>
+</figure>
+
+:::note
+Most reports can be downloaded in XLSX, PDF, and CSV formats. Or you may choose to view your results on the search results page.
+:::
+
+## Your Turf
+
+The **Your Turf** tab presents a dashboard of the workers you organize by their location.
+
+It also offers key metrics about them – like distribution of assessments or number and percentage of cards signed – and provides links to members of your leadership teams.
+
+Just click to launch any of your status reports right from your turf tab.
+
+![Your Turf tab](/img/getting-started/your-turf-tab-view.png#center-large)
+
+### Set up Your Turf
+
+The **Your Turf** tab shows you a summary view of the shops you are responsible for organizing and allows you to keep track of what’s going on at other shops as well.
+
+Here’s how to read your turf tab:
+1. Below is a sample view of an organizer’s turf tab.
+2. As you can see, it shows links to this organizer’s custom reports on the top of the page and displays information about the locations she organizes (“**Basic Hotel**” and “**Grand Hotel : Housekeeping**”) on the lower half of the page.
+![Your Turf tab](/img/getting-started/your-turf-tab-view.png#center-large)
+3. All this information displays automatically – if this organizer was the organizer of another shop, the turf tab would display that shop, too.
+4. Your turf tab is a powerful tool for accessing the data that’s most important to you. From your turf tab, you can easily jump to more detailed information as it’s needed.
+5. Clicking the Basic Hotel link, for instance, will open the hotel’s overview page where Broadstripes displays a vast amount of additional information (for instance, all of the Basic Hotel’s child organizations and its workers’ assessment history).
+
+<figure>
+![Your Turf department link](/img/getting-started/your-turf-department.png#center)
+<figcaption>You can click a location to open a detailed overview.</figcaption>
+</figure>
+
+<figure>
+![Department overview](/img/getting-started/department-overview.png#center)
+<figcaption>Overview of Basic Hotel.</figcaption>
+</figure>
+
+6. You can drill down into information wherever you see a hyperlink. For instance, clicking on the number “95” in the **Workers** column will open a detailed list showing all 95 workers at the Basic Hotel.
+
+<figure>
+![Workers Column](/img/getting-started/your-turf-workers-column.png#center)
+<figcaption>Clicking this link will show a list of every worker at Basic Hotel.</figcaption>
+</figure>
+
+<figure>
+![Employee count search](/img/getting-started/employee-count-search.png#center)
+<figcaption>A list of workers for the Basic Hotel.</figcaption>
+</figure>
+
+7. Similarly, you can hover over the links on your turf tab to see detailed information without navigating away from the turf page.
+8. Hovering over a segment of the Assessments pie chart will show the total number of workers who have been assessed with that code (for instance, in the example below, 39 workers have an assessment of **“1”** and 23 have an assessment of **“2”**).

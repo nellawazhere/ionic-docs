@@ -16,3 +16,11 @@ hide_from_nav: true
 </head>
 
 What is this?
+<!--
+<figure>
+![Alt text](/path/to/image.png#center)
+<figcaption>Your caption text here</figcaption>
+</figure>
+-->
+
+

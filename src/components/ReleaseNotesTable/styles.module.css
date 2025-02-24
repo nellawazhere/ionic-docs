@@ -112,28 +112,28 @@
 .typeNew {
   background-color: rgba(var(--ifm-color-success-rgb), 0.1);
   color: #165CAD;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 
 .typeFixed {
   background-color: rgba(var(--ifm-color-info-rgb), 0.1);
   color: var(--ifm-color-info);
-  font-weight: 500;
+  font-weight: 700;
 }
 
-/* Search language column */
-.catbox {
-	font-size: 12px !important;
-	font-weight: bold;
-	color: #ffffff;
-	vertical-align: middle;
-	background-color: #8a1e1e;
-	border: .3px outset #bebebe;
-	border-radius: 6px;
-	padding: 4px;
-	display: inline;
-	white-space: nowrap !important;
+/* Category badge */
+.categoryBadge {
+  font-size: 12px !important;
+  font-weight: bold;
+  color: #ffffff;
+  vertical-align: middle;
+  background-color: #8a1e1e;
+  border: .3px outset #bebebe;
+  border-radius: 6px;
+  padding: 4px;
+  display: inline;
+  white-space: nowrap !important;
 }
 
 

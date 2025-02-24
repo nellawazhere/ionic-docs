@@ -77,8 +77,8 @@ export default function ReleaseNotesTable({ data }) {
                   </span>
                 </td>
                 <td className={styles.categoryColumn}>
-                    <span className = "catbox">{item.category}</span>
-                    </td>
+                  <span className={styles.categoryBadge}>{item.category}</span>
+                </td>
                 <td>{item.description}</td>
               </tr>
             ))}

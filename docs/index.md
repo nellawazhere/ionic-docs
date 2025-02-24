@@ -3,8 +3,6 @@ title: Welcome to the Broadstripes Help Center
 sidebar_label: Overview
 slug: /
 hide_table_of_contents: true
-demoUrl: https://docs-demo.ionic.io/
-demoSourceUrl: https://github.com/ionic-team/docs-demo
 ---
 
 import DocsCard from '@components/global/DocsCard';
@@ -16,11 +14,7 @@ import DocsCards from '@components/global/DocsCards';
     name="description"
     content="Got questions? We've got you covered! Find a variety of resources to help get you going in Broadstripes."
   />
-  <link rel="canonical" href="https://ionicframework.com/docs" />
-  <link rel="alternate" href="https://ionicframework.com/docs" hreflang="x-default" />
-  <link rel="alternate" href="https://ionicframework.com/docs" hreflang="en" />
-  <meta property="og:url" content="https://ionicframework.com/docs" />
-</head>
+ </head>
 
 Find tutorials and help on the many tools available to you in Broadstripes from [Texting](www.broadstripes.com) to [Card-signing](www.broadstripes.com) to [Reporting](www.broadstripes.com).
 

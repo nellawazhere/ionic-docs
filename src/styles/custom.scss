@@ -286,14 +286,14 @@ img[src$="#center-large"] {
 /* Adjust sidebar width */
 [class*='docPage'] {
   .thin-scrollbar {
-    width: 250px !important;  /* Reduce from default width */
+    width: 200px !important;  /* Reduce from default width */
   }
 }
 
 /* Specific styles for release notes page */
 [class*='docMainContainer'] {
   max-width: none !important;
-  width: calc(100% - 250px) !important;
+  width: calc(100% - 200px) !important;
 }
 
 .wider-page {

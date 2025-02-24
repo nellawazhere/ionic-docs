@@ -50,7 +50,7 @@ module.exports = {
     },
     announcementBar: {
       id: 'announcement-bar',
-      content: '<a href="https://www.broadstripes.com" target="_blank" rel="noopener"><span> <strong>Need a demo?</strong> Click here →</span></a>',
+      content: '<a href="https://www.broadstripes.com" target="_blank" rel="noopener"><span> <span style="color: #b21700; font-weight: bold;">Need a demo?</span> Click here →</span></a>',
       isCloseable: false,
     },
     navbar: {

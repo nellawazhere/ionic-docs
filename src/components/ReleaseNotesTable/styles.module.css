@@ -92,6 +92,7 @@
 .table td:last-child,
 .table th:last-child {
   padding-right: 1.25rem;
+  white-space: nowrap !important;
 }
 
 .table td:last-child {
@@ -150,6 +151,38 @@
   white-space: nowrap !important;
 }
 
+
+/* Markdown styles */
+.table td ul,
+.table td p ul {
+  list-style-type: disc !important;
+  padding-left: 20px !important;
+  margin: 8px 0 !important;
+}
+
+.table td li,
+.table td p li {
+  margin: 4px 0;
+  display: list-item !important;
+}
+
+.table td p {
+  margin: 0.5em 0;
+}
+
+.table td strong,
+.table td p strong {
+  font-weight: 600 !important;
+}
+
+/* Ensure lists inside table cells have proper spacing */
+.table td > :first-child {
+  margin-top: 0 !important;
+}
+
+.table td > :last-child {
+  margin-bottom: 0 !important;
+}
 
 /* Responsive styles */
 @media (max-width: 768px) {

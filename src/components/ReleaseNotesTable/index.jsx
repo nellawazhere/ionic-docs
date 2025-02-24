@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import styles from './styles.module.css';
+import ReactMarkdown from 'react-markdown';
 
 export default function ReleaseNotesTable({ data }) {
   const [searchTerm, setSearchTerm] = useState('');
@@ -80,7 +81,9 @@ export default function ReleaseNotesTable({ data }) {
                 <td className={styles.categoryColumn}>
                   <span className={styles.categoryBadge}>{item.category}</span>
                 </td>
-                <td>{item.description}</td>
+                <td>
+                  <ReactMarkdown>{item.description}</ReactMarkdown>
+                </td>
                 <td>{item.releasedate}</td>
               </tr>
             ))}

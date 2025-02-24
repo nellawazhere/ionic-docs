@@ -4,6 +4,8 @@
   background: var(--ifm-background-surface-color);
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: none;
 }
 
 .filters {
@@ -50,6 +52,11 @@
   box-shadow: 0 0 0 2px rgba(var(--ifm-color-primary-rgb), 0.2);
 }
 
+.tableContainer {
+  width: 100%;
+  overflow-x: auto;
+}
+
 .table {
   width: 100%;
   border-collapse: separate;
@@ -85,6 +92,13 @@
 .table td:last-child,
 .table th:last-child {
   padding-right: 1.25rem;
+}
+
+.table td:last-child {
+	font-size: 10px;
+	font-style: italic;
+	color: rgb(163,164,166);
+	white-space: nowrap !important;
 }
 
 /* Style for the type column */
@@ -128,7 +142,7 @@
   font-weight: bold;
   color: #ffffff;
   vertical-align: middle;
-  background-color: #8a1e1e;
+  background-color: #b21700;
   border: .3px outset #bebebe;
   border-radius: 6px;
   padding: 4px;
@@ -148,8 +162,7 @@
     width: 100%;
   }
   
-  .table {
-    display: block;
+  .tableContainer {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }

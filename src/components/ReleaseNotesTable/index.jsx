@@ -66,6 +66,7 @@ export default function ReleaseNotesTable({ data }) {
               <th className={styles.typeColumn}>Type</th>
               <th className={styles.categoryColumn}>Category</th>
               <th>Description</th>
+              <th>Release Date</th>
             </tr>
           </thead>
           <tbody>
@@ -80,6 +81,7 @@ export default function ReleaseNotesTable({ data }) {
                   <span className={styles.categoryBadge}>{item.category}</span>
                 </td>
                 <td>{item.description}</td>
+                <td>{item.releasedate}</td>
               </tr>
             ))}
           </tbody>

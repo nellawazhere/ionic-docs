@@ -5,6 +5,7 @@ description: Release notes for Broadstripes
 hide_table_of_contents: true
 displayed_sidebar: docs
 hide_from_nav: true
+className: wider-page
 ---
 
 <head>
@@ -21,5 +22,3 @@ import { releaseNotes } from '@site/src/data/releaseNotes';
 # Release Notes
 
 <ReleaseNotesTable data={releaseNotes} />
-
-

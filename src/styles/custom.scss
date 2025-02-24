@@ -282,3 +282,22 @@ img[src$="#center-large"] {
   font-weight: 600;
   font-size: var(--ifm-h2-font-size);
 }
+
+/* Adjust sidebar width */
+[class*='docPage'] {
+  .thin-scrollbar {
+    width: 250px !important;  /* Reduce from default width */
+  }
+}
+
+/* Specific styles for release notes page */
+[class*='docMainContainer'] {
+  max-width: none !important;
+  width: calc(100% - 250px) !important;
+}
+
+.wider-page {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding: 0 1rem !important;
+}

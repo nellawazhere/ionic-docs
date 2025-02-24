@@ -42,6 +42,14 @@ module.exports = {
     },
   },
   themeConfig: {
+    algolia: {
+      appId: 'YOUR_APP_ID',
+      apiKey: 'YOUR_SEARCH_API_KEY',
+      indexName: 'broadstripes',
+      contextualSearch: true,
+      externalUrlRegex: 'external\\.com|domain\\.com',
+      searchParameters: {},
+    },
     docs: {
       sidebar: {
         hideable: false,
@@ -70,6 +78,10 @@ module.exports = {
           docId: 'index',
           label: 'Guide',
           position: 'left',
+        },
+        {
+          type: 'search',
+          position: 'right',
         },
         {
           type: 'doc',

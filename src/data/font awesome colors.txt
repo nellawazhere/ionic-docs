@@ -1,0 +1,4 @@
+font awesome colors
+primary 30 18 118 1
+secondary 178 23 0 0.3
+

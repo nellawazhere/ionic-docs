@@ -70,7 +70,13 @@ module.exports = {
           docId: 'index',
           label: 'Guide',
           position: 'left',
-        }
+        },
+        {
+          type: 'doc',
+          docId: 'release-notes',
+          label: 'Release Notes',
+          position: 'right',
+        },
       ],
     },
     footer: {

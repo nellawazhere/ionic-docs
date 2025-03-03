@@ -1,12 +1,16 @@
 const path = require('path');
 
-const BASE_URL = '/docs';
+const BASE_URL = '/ionic-docs';
 
 module.exports = {
   title: 'Broadstripes Help Center',
   tagline: 'Winning labor campaigns start here.',
-  url: 'https://www.broadstripes.com',
+  url: 'https://nellawazhere.github.io',
   baseUrl: `${BASE_URL}/`,
+  organizationName: 'nellawazhere',
+  projectName: 'ionic-docs',
+  trailingSlash: false,
+  deploymentBranch: 'gh-pages',
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -14,8 +18,6 @@ module.exports = {
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/meta/pagelogo.jpeg',
-  organizationName: 'broadstripes',
-  projectName: 'docs',
   presets: [
     [
       '@docusaurus/preset-classic',

@@ -1,0 +1,202 @@
+.container {
+  margin: 2rem 0;
+  padding: 1rem;
+  background: var(--ifm-background-surface-color);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: none;
+}
+
+.filters {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.searchInput {
+  flex: 1;
+  min-width: 200px;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--ifm-color-gray-300);
+  border-radius: 4px;
+  font-size: 1rem;
+  background: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 0 0 2px rgba(var(--ifm-color-primary-rgb), 0.2);
+}
+
+.select {
+  padding: 0.5rem 2rem 0.5rem 1rem;
+  border: 1px solid var(--ifm-color-gray-300);
+  border-radius: 4px;
+  font-size: 1rem;
+  background: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%236B7280' viewBox='0 0 16 16'%3E%3Cpath d='M8 10.5l-4-4h8l-4 4z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+}
+
+.select:focus {
+  outline: none;
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 0 0 2px rgba(var(--ifm-color-primary-rgb), 0.2);
+}
+
+.tableContainer {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-bottom: 1rem;
+}
+
+.table th,
+.table td {
+  padding: 1rem;
+  border-bottom: 1px solid var(--ifm-color-gray-200);
+  text-align: left;
+}
+
+.table th {
+  background: #b21700;
+  font-weight: 600;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.table tbody tr:hover {
+  background-color: var(--ifm-hover-overlay);
+}
+
+.table td:first-child,
+.table th:first-child {
+  padding-left: 1.25rem;
+}
+
+.table td:last-child,
+.table th:last-child {
+  padding-right: 1.25rem;
+  white-space: nowrap !important;
+}
+
+.table td:last-child {
+	font-size: 10px;
+	font-style: italic;
+	color: rgb(163,164,166);
+	white-space: nowrap !important;
+}
+
+/* Style for the type column */
+.typeColumn {
+  white-space: nowrap;
+  width: 100px;
+}
+
+/* Style for the category column */
+.categoryColumn {
+  white-space: nowrap;
+  width: 180px;
+  vertical-align: middle;
+}
+
+/* Type badges */
+.typeBadge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+ /* font-weight: 500; */
+}
+
+.typeNew {
+  background-color: rgba(var(--ifm-color-success-rgb), 0.1);
+  color: #165CAD;
+  font-weight: 700;
+}
+
+
+.typeFixed {
+  background-color: rgba(var(--ifm-color-info-rgb), 0.1);
+  color: var(--ifm-color-info);
+  font-weight: 700;
+}
+
+/* Category badge */
+.categoryBadge {
+  font-size: 12px !important;
+  font-weight: bold;
+  color: #ffffff;
+  vertical-align: middle;
+  background-color: #b21700;
+  border: .3px outset #bebebe;
+  border-radius: 6px;
+  padding: 4px;
+  display: inline;
+  white-space: nowrap !important;
+}
+
+
+/* Markdown styles */
+.table td ul,
+.table td p ul {
+  list-style-type: disc !important;
+  padding-left: 20px !important;
+  margin: 8px 0 !important;
+}
+
+.table td li,
+.table td p li {
+  margin: 4px 0;
+  display: list-item !important;
+}
+
+.table td p {
+  margin: 0.5em 0;
+}
+
+.table td strong,
+.table td p strong {
+  font-weight: 600 !important;
+}
+
+/* Ensure lists inside table cells have proper spacing */
+.table td > :first-child {
+  margin-top: 0 !important;
+}
+
+.table td > :last-child {
+  margin-bottom: 0 !important;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .filters {
+    flex-direction: column;
+  }
+  
+  .searchInput,
+  .select {
+    width: 100%;
+  }
+  
+  .tableContainer {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}

@@ -1,0 +1,326 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+
+@use './components/admonition';
+@use './components/back-to-top-button';
+@use './components/code';
+@use './components/doc-item';
+@use './components/doc-root';
+@use './components/doc-sidebar';
+@use './components/edit-this-page';
+@use './components/markdown';
+@use './components/navbar';
+@use './components/navbar-sidebar';
+@use './components/pagination';
+@use './components/search';
+@use './components/table';
+@use './components/tabs';
+@use './components/theme-toggle';
+@use './components/toc';
+
+:root {
+  /* Color variables for admonitions */
+  --c-yellow-0: #fff8e6;
+  --c-yellow-10: #fff3d1;
+  --c-yellow-30: #ffe7a3;
+  --c-yellow-80: #b88b00;
+  --c-yellow-90: #997300;
+
+  --c-blue-0: #e6f6ff;
+  --c-blue-10: #d1eeff;
+  --c-blue-80: #0077cc;
+  --c-blue-90: #005c99;
+
+  --c-green-10: #e6fff0;
+  --c-green-20: #ccffe0;
+  --c-green-80: #00b347;
+  --c-green-90: #008c38;
+
+  --c-orange-10: #fff0e6;
+  --c-orange-20: #ffe0cc;
+  --c-orange-80: #cc5500;
+  --c-orange-90: #994000;
+
+  --c-red-0: #ffe6e6;
+  --c-red-10: #ffcccc;
+  --c-red-60: #ff1a1a;
+  --c-red-90: #990000;
+
+  --ifm-navbar-link-hover-color: initial;
+  --ifm-navbar-padding-vertical: 0;
+  --ifm-navbar-item-padding-vertical: 0;
+
+  --ifm-font-family-base: -apple-system, BlinkMacSystemFont, Inter, Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI emoji';
+  --ifm-font-family-monospace: 'SFMono-Regular', 'Roboto Mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+
+  --ifm-menu-link-sublist-icon: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iNiIgdmlld0JveD0iMCAwIDEwIDYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik04Ljk5OTg4IDVMNC45OTk4OCAxTDAuOTk5ODc4IDUiIHN0cm9rZT0iIzAzMDYwQiIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K');
+
+  //#region ----------- Z Indices ------------
+  --z-sidebar: 2000;
+  --z-backdrop: 1100;
+  //#endregion
+}
+
+html[data-theme='light'] {
+  --token-primary-bg-c: #fff;
+  --token-secondary-bg-c: #fff;
+
+  --ifm-link-color: var(--c-blue-90);
+  //rgb value is c-blue-90
+  --ifm-link-hover-color: rgba(27, 109, 255, 0.8);
+
+  --ifm-background-surface-color: var(--token-primary-bg-c);
+
+  --ifm-navbar-background-color: var(--token-primary-bg-c);
+  --ifm-navbar-shadow: 0 1px 0 0 var(--c-gray-0);
+
+  --ifm-heading-color: var(--c-carbon-100);
+  --ifm-secondary-heading-color: var(--c-carbon-300);
+
+  --ifm-code-background: var(--c-indigo-10);
+  --ifm-font-color-base: var(--c-carbon-90);
+}
+
+html[data-theme='dark'] {
+  --token-primary-bg-c: #03060b;
+  --token-secondary-bg-c: #13171c;
+
+  --ifm-link-color: var(--c-blue-70);
+  //rgb value is c-blue-70
+  --ifm-link-hover-color: rgba(77, 141, 255, 0.8);
+
+  --ifm-background-surface-color: var(--token-primary-bg-c);
+
+  --ifm-navbar-background-color: var(--token-primary-bg-c);
+  --ifm-navbar-shadow: 0 1px 0 0 var(--c-gray-90);
+
+  --ifm-heading-color: #fff;
+  --ifm-secondary-heading-color: #f6f6f6;
+
+  --ifm-font-color-base: #fff;
+  --ifm-background-color: var(--token-primary-bg-c);
+  --ifm-dropdown-background-color: var(--token-secondary-bg-c);
+
+  --ifm-menu-link-sublist-icon-filter: invert(100%);
+}
+
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-smoothing: antialiased;
+
+  scroll-padding-top: calc(var(--ifm-navbar-height) + 16px);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+.theme-doc-version-banner {
+  display: none;
+}
+
+.theme-doc-version-badge {
+  display: none;
+}
+
+ion-grid {
+  margin: 1em 0;
+}
+
+figure {
+  text-align: center;
+  margin: 1.5em 0;
+}
+
+figcaption {
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.7em;
+  margin-top: 0.5em;
+  text-align: center;
+  line-height: 1.3;
+  max-width: clamp(45ch, 60%, 90ch);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure > * {
+  display: block;
+  margin: 0 auto;
+}
+
+figure.device {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+iframe {
+  background-color: rgba(0, 0, 0, 0.02);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.git-link {
+  &::before {
+    content: '';
+    height: 1em;
+    width: 1em;
+    display: inline-block;
+    background-color: currentColor;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: 100% 100%;
+    mask-image: url(../../static/icons/code-branch.svg);
+    vertical-align: -0.1em;
+    margin-inline-end: 5px;
+  }
+}
+
+.cordova-ee-card {
+  max-width: 100%;
+}
+
+.cordova-ee-img {
+  width: 50px;
+  float: left;
+  margin-right: 20px;
+}
+
+.native-ee-detail {
+  float: right;
+  cursor: pointer;
+}
+
+.cordova-ee-card p {
+  margin: 1rem 0 0;
+}
+
+// OS Announcement Bar
+[class*='announcementBar_'] {
+  --docusaurus-announcement-bar-height: 3.5rem;
+
+  background: linear-gradient(90deg, #0C71C3, #165CAD 15%, #000 35%, #000 45%, #165CAD 85%, #0C71C3);
+
+  &:hover,
+  &:focus,
+  &:active {
+    strong {
+      color: var(--c-red-50);
+    }
+  }
+}
+
+[class*='announcementBarContent_'] {
+  padding: 0;
+
+  > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: var(--docusaurus-announcement-bar-height);
+
+    letter-spacing: 0.01em !important;
+    text-decoration: none !important;
+
+    color: #fff !important;
+
+    font-size: .9rem;
+    font-weight: 500;
+
+    strong {
+      font-weight: 500;
+
+      color: var(--c-red-70);
+
+      transition: color 0.2s ease-out;
+    }
+  }
+}
+
+img[src$="#center"] {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+  height: auto;
+}
+
+img[src$="#center-large"] {
+  display: block;
+  margin: 0 auto;
+  max-width: 500px;
+  height: auto;
+}
+
+// Make linked category labels match regular category labels
+.theme-doc-sidebar-item-category-level-1 > .menu__link--active {
+  font-weight: 600;
+  font-size: var(--ifm-h2-font-size);
+}
+
+/* Adjust sidebar width */
+[class*='docPage'] {
+  .thin-scrollbar {
+    width: 200px !important;  /* Reduce from default width */
+  }
+}
+
+/* Specific styles for release notes page */
+[class*='docMainContainer'] {
+  max-width: none !important;
+  width: calc(100% - 200px) !important;
+}
+
+.wider-page {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding: 0 1rem !important;
+}
+
+/* Search Component Styling */
+.navbar__search {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/* Adjust search input width */
+.navbar__search-input {
+  width: 200px;  /* Adjust this value as needed */
+}
+
+/* Position the search box */
+.navbar__items--right > .search-bar {
+  margin-right: 16px;
+}
+
+/* Search results dropdown styling */
+.aa-dropdown-menu {
+  background-color: var(--ifm-navbar-background-color);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  box-shadow: var(--ifm-dropdown-shadow);
+}

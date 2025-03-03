@@ -273,7 +273,7 @@ img[src$="#center"] {
 img[src$="#center-large"] {
   display: block;
   margin: 0 auto;
-  max-width: 500px;
+  max-width: 600px;
   height: auto;
 }
 
@@ -293,13 +293,18 @@ img[src$="#center-large"] {
 /* Specific styles for release notes page */
 [class*='docMainContainer'] {
   max-width: none !important;
-  width: calc(100% - 200px) !important;
+  /*width: calc(100% - 200px) !important;*/
 }
 
 .wider-page {
   max-width: 100% !important;
   width: 100% !important;
   padding: 0 1rem !important;
+}
+
+[class*=docItemContainer_] {
+  flex-grow: 1;
+  min-width: 0;
 }
 
 /* Search Component Styling */

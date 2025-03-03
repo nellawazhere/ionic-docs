@@ -8,7 +8,7 @@
 }
 
 html[data-theme='light'] {
-  --docsearch-searchbox-shadow: inset 0 0 0 1px var(--c-indigo-30);
+  --docsearch-searchbox-shadow: inset 3px 3px 6px 0px rgb(204, 219, 232);
 
   --search-keys-border-c: var(--c-indigo-20);
 
@@ -49,6 +49,7 @@ html[data-theme='dark'] {
     width: 100%;
     border-radius: 8px;
     box-shadow: var(--docsearch-searchbox-shadow);
+    background-color: rgb(204 219 232 / 34%);
 
     .DocSearch-Button-Keys {
       min-width: 0;

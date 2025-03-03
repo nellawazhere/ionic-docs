@@ -135,3 +135,53 @@ Here’s how to read your turf tab:
 
 7. Similarly, you can hover over the links on your turf tab to see detailed information without navigating away from the turf page.
 8. Hovering over a segment of the Assessments pie chart will show the total number of workers who have been assessed with that code (for instance, in the example below, 39 workers have an assessment of **“1”** and 23 have an assessment of **“2”**).
+
+<figure>
+![Hover on Assessment](/img/getting-started/hover-on-assessment.png#center)
+<figcaption>Hover over each of the Assessments pie segments to see how many workers each slice represents.</figcaption>
+</figure>
+
+### View a location you don't lead
+
+This organizer’s turf tab can also be set up to display information about “**Grand Hotel**,” a shop for which her colleague is responsible.
+
+She can add a shop, or one of its departments–for instance, “Banquets”– to her turf page if she is interested in keeping an eye on how things were going there.
+
+Here’s how:
+1. Click the **+ Add shops and departments you don’t lead…** button at the bottom of the page.
+![Add shops you don't lead](/img/getting-started/add-shops-not-leading.png#center)
+2. **Type the name** of the shop or department to include.
+![Type name of shop or department](/img/getting-started/type-shop-to-add.png#center)
+
+## Your Leaders
+
+**Your Leaders** tab presents an easy-to-navigate list of your senior leaders.
+
+From this tab, you can see how many people or organizations each leader is in charge of, or click the hyperlinks in the **Name, People,** or **Orgs** columns to see more details. From this tab, you can also download a PDF report to view or share this detailed data off-line.
+![Your Leaders tab](/img/getting-started/your-leaders-tab-view.png#center-large)
+
+## Project Overview
+
+The **Project Overview tab** offers a broad assessment of your project.
+
+Like the turf tab, it provides quick links to all of your custom reports, and it also gives you a snapshot of your current assessments and the assessment trends over time.
+
+At the bottom of the page, you can see key statistics about your project – like the total number of Broadstripes users and how many organizations and people it contains – as well as personal statistics like the date of your last login.
+
+Like other tabs on your homepage, most of the numbers presented are clickable links that let you drill down to detailed information where you need it.
+:::note
+This tab will not be avaible if the project utilizes Limited visibility.**ADD LINK HERE**
+:::
+
+![Project overview tab](/img/getting-started/project-overview-tab-view.png#center-large)
+
+## Recent Changes
+**Recent Changes** tab shows the last 25 contact records (both organizations and people) to be updated across your entire project.
+
+You’ll also see the name of the Broadstripes user who edited the record and the exact time the change was made.
+
+![Recent Changes tab](/img/getting-started/basic-recent-changes-tab-view.png#center-large)
+
+Project admins and basic users (if enabled) have an advanced view of the recent changes tab. The change history viewer will provide an interactive filterable view of changes in your project as far as the project creation.
+
+![Change history viewer](/img/getting-started/change-history-viewer.png#center-large)

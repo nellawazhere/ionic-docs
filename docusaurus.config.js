@@ -1,16 +1,19 @@
 const path = require('path');
 
-const BASE_URL = '/ionic-docs';
+// GitHub Pages deployment config
+const organizationName = 'honel'; // Usually your GitHub username
+const projectName = 'Broadstripes'; // Usually your repository name
+const deploymentBranch = 'gh-pages';
 
 module.exports = {
   title: 'Broadstripes Help Center',
   tagline: 'Winning labor campaigns start here.',
-  url: 'https://nellawazhere.github.io',
-  baseUrl: `${BASE_URL}/`,
-  organizationName: 'nellawazhere',
-  projectName: 'ionic-docs',
+  url: `https://${organizationName}.github.io`,
+  baseUrl: `/${projectName}/`,
+  organizationName: organizationName,
+  projectName: projectName,
+  deploymentBranch: deploymentBranch,
   trailingSlash: false,
-  deploymentBranch: 'gh-pages',
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],

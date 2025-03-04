@@ -31,13 +31,13 @@ Filterable columns include:
 - the attribute’s New Value
 - a brief Summary Text of the change that occurred
 
-[Change history viewer](img/admin-guides/recent-changes-change-viewer.png#center-large)
+[Change history viewer](/img/admin-guides/recent-changes-change-viewer.png#center-large)
 
 ### Selecting your columns
 
 Change explorer gives users a variety of information for each change. You can choose what values/columns you want to view in your Change explorer by selecting the gear icon just above your Change explorer columns. Uncheck any columns that you don’t want to hide, and they will be removed from your view.
 
-![Selecting your columns](img/admin-guides/change-viewer-selecting-columns.gif#center)
+![Selecting your columns](/img/admin-guides/change-viewer-selecting-columns.gif#center)
 
 ### Filtering for relevant changes
 

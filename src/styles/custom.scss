@@ -270,6 +270,13 @@ img[src$="#center"] {
   height: auto;
 }
 
+img[src$="#center-medium"] {
+  display: block;
+  margin: 0 auto;
+  max-width: 400px;
+  height: auto;
+}
+
 img[src$="#center-large"] {
   display: block;
   margin: 0 auto;

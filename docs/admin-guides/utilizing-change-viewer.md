@@ -37,7 +37,7 @@ Filterable columns include:
 
 Change explorer gives users a variety of information for each change. You can choose what values/columns you want to view in your Change explorer by selecting the gear icon just above your Change explorer columns. Uncheck any columns that you don’t want to hide, and they will be removed from your view.
 
-![Selecting your columns](/img/admin-guides/change-viewer-selecting-columns.gif#center)
+![Selecting your columns](/img/admin-guides/change-viewer-selecting-columns.gif#center-medium)
 
 ### Filtering for relevant changes
 
@@ -46,7 +46,7 @@ At the top of each column, you may enter values to filter the change data that i
 2. Select Jane Organizer from the dropdown menu in the **Changed By** column.
 3. Click **“Run my new query.”**
 
-![Filtering for relevant changes](/img/admin-guides/filter-change-viewer.png#center)
+![Filtering for relevant changes](/img/admin-guides/filter-change-viewer.png#center-large)
 
 ### Including data import changes
 

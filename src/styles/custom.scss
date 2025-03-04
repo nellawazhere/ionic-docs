@@ -298,6 +298,12 @@ img[src$="#center-large"] {
 }
 
 /* Specific styles for release notes page */
+.release-notes {
+  .docItemContainer {
+    min-width: 900px;
+  }
+}
+
 [class*='docMainContainer'] {
   max-width: none !important;
   /*width: calc(100% - 200px) !important;*/

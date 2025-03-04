@@ -20,6 +20,14 @@ module.exports = {
         'get-started/login-or-reset',
         'get-started/tour-homepage'
       ],
+    },
+    {
+      type: 'category',
+      label: 'Admin Guides',
+      collapsed: false,
+      items: [
+        'admin-guides/utilizing-change-viewer'
+      ],
     }
   ]
 };

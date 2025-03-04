@@ -182,6 +182,13 @@ You’ll also see the name of the Broadstripes user who edited the record and th
 
 ![Recent Changes tab](/img/getting-started/basic-recent-changes-tab-view.png#center-large)
 
-Project admins and basic users (if enabled) have an advanced view of the recent changes tab. The change history viewer will provide an interactive filterable view of changes in your project as far as the project creation.
+Project admins and basic users (if enabled) have an advanced view of the recent changes tab. The [change history viewer](admin-guides/utilizing-change-viewer) will provide an interactive filterable view of changes in your project as far back as the project creation.
 
-![Change history viewer](/img/getting-started/change-history-viewer.png#center-large)
+[Change history viewer](img/admin-guides/recent-changes-change-viewer.png#center-large)
+
+### Switching to the older format
+
+As a project admin, you automatically have the Change explorer enabled. If you prefer a less detailed view, you can click on “switch to old format” in the upper right corner of the Recent Changes tab. This will take you to the previous format with 3 fixed columns (Name, Updated By, and Last Updated) that will display the last 25 changes.
+
+
+

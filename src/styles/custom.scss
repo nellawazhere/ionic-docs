@@ -299,10 +299,11 @@ img[src$="#center-large"] {
 
 /* Specific styles for release notes page */
 .release-notes {
-  [class*='docItemContainer'] {
+  [class*='docItemContainer_Djhp'] {
     min-width: 900px;
   }
 }
+
 
 [class*='docMainContainer'] {
   max-width: none !important;

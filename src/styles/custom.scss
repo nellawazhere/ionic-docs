@@ -298,8 +298,10 @@ img[src$="#center-large"] {
 }
 
 /* Specific styles for release notes page */
-[class*='docItemContainer_release-notes'] {
-  min-width: 900px;
+.release-notes {
+  [class*='docItemContainer'] {
+    min-width: 900px;
+  }
 }
 
 [class*='docMainContainer'] {

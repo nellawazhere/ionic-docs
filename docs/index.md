@@ -58,3 +58,8 @@ Get started by following the guides in the [Getting Started](/intro/get-started)
   </DocsCard>
   </DocsCards>
 
+<DocsCard header="Tips & Tricks" href="/theming/basics" icon="/icons/guide-faq-icon.svg" hoverIcon="/icons/guide-faq-icon.svg">
+    <p>Everything you need to know about email and SMS messaging</p>
+  </DocsCard>
+  </DocsCards>
+
